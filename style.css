@@ -1,0 +1,584 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.top{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+}
+.box{
+    height: 40px;
+    width: 10%;
+    background-color: black;
+    display: inline-block;
+    float: left;
+}
+.top input{
+    height: 34px;
+    width: 30%;
+    border-radius: 2px;
+    border:1px solid gray;
+    margin-top: 2px;
+    float: left;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 50px;
+}
+.top ul li{
+    height: 30px;
+    width: 10%;
+    line-height: 30px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 2px;
+     font-family: Calibri;
+    font-size: 16px;
+}
+.top ul li b a{
+    text-decoration: none;
+}
+.top ul li b{
+    padding: 0px;
+}
+#li{
+    background-color: green;
+    color: white; 
+}
+.top input[type=text]:focus{
+    width: 40%;
+    transition: 2s;
+}
+.top input[type=text]{
+    background-image: url(media/2.png);
+    background-repeat: no-repeat;
+    outline: none;}
+.menu ul li{
+    width: 11%;
+    height: 40px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-family: Calibri;
+    font-size: 16px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu{
+    width:80%;
+    padding: 0 10% 0 10%;
+    background-color: gainsboro;
+    height: 40px;
+}
+#all{
+    width: 12%;
+}
+.add{
+    height:450px;
+    width: 100%;
+    background-image: url(media/background_solid_bright_44011_2560x1080.jpg);
+    background-size: cover;
+    
+}
+.text{
+    height:380px;
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 70px;
+    float: left;
+    display: inline-block;
+}
+.text b{
+    font-size:50px;
+    font-family:Cambria Math;
+    color: green;
+}
+#too{
+    color: white;
+}
+.text b sup{
+    font-size: 20px;
+    color: green;
+}
+.text #too sup{
+    color: white;
+}
+.text p{
+    font-size: 21px;
+    font-family: Calibri (Body);
+    color: white;
+}
+.text button{
+    height: 30px;
+    width: 120px;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 2px;
+}
+.text button a{
+    text-decoration: none;
+}
+.text #button{
+    background-color: white;
+    color: green;
+    margin-left: 10px;
+}
+.text button a b{
+    font-size: 20px;
+    padding: 0px;
+    color: white;
+    font-family:  Calibri ;
+}
+.text #button a b{
+    color: green;
+}
+.pngimg{
+    height: 450px;
+    width: 50%;
+    background-image: url(media/right.png);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.to-box{
+    padding: 0 5% 0 5%;
+    background-color:ghostwhite;
+    height: 600px;
+    
+}
+.eight-box{
+    height: 200px;
+    width: 23%;
+    float: left;
+    display: inline-block;
+    background-color: white;
+    margin: 10px 1% 10px 1%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 7px;
+}
+.eight-box img{
+    height: 150px;
+    width: 100%;
+    display: block;
+    border-radius: 2px 2px 0 0;
+}
+b{
+    font-family: Calibri;
+    font-size: 20px;
+    padding: 20px 1% 10px 1%;
+    display: block;
+}
+.to-box p{
+    line-height: 50px;
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;
+}
+.to-box p a{
+    text-decoration: none;
+    color: green;
+}
+.logo{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.box-three{
+    height: 200px;
+    width: 90%;
+    padding: 25px 5% 25px 5%;
+    background-color: ghostwhite;
+}
+.four{
+    height: 200px;
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+.four-three{
+    height: 158px;
+    width: 74.5%;
+    border: 1px solid lightgrey;
+    float: left;
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    background-color:white;
+}
+#any{
+    line-height:150px;
+   
+}
+.kk{
+    height: 150px;
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+.km{
+    border-right: 1px solid lightgrey;
+}
+.smal{
+    height: 10px;
+    width: 40px;
+    margin: 20px 0 0 20px;
+    background-color: green;
+}
+.kk b{
+    padding-left: 20px;
+}
+.kk p{
+    padding-left: 20px;
+    font-family:Calibri; 
+}
+.box-four{
+    height: 419px;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    background-color: white;
+    padding-top: 50px;
+}
+strong{
+    font-size: 40px;
+    font-family: calibri;
+    text-align: center;
+    display: block;
+}
+.box-four #kk{
+    height:320px;
+    width: 23%;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    padding: 50px 1% 0 1%;
+    
+}
+#kk img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+p{
+    font-family: Calibri;
+    font-size: 17px;
+}
+#kk p{
+    text-align: center;
+}
+#kk b{
+    text-align: center;
+}
+.long{
+    height: 800px;
+    width: 90%;
+    padding: 20px 5% 0 5%;
+    background-color: ghostwhite;
+}
+.long p{
+    display: block;
+    text-align: center;
+    color: gray;
+    line-height: 40px;
+}
+.kaa {
+    height: 520px;
+    width: 23%;
+    background-color:white;
+    display: inline-block;
+    float: left;
+    box-shadow: 1px 1px 7px;
+    margin: 50px 1% 0 1%;
+}
+.kaa b{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.kaa button{
+    height: 40px;
+    width: 60%;
+    margin: auto;
+    display: block;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 2px;
+}
+.kaa button a{
+    text-decoration: none;
+}
+.kaa button a strong{
+    font-size: 22px;
+    color: white;
+}
+.kaa #nish{
+    font-size: 20px;
+}
+.kaa #nish span{
+    font-size: 14px;
+    color: gray;
+}
+.kaa i{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    width: 25px;
+    color: green;
+    margin: 20px;
+}
+.kaa p{
+    color: black;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.kaa #bai{
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    display: block;
+    font-family:  Calibri;
+}
+.kaa #mid{
+    font-size: 16px;
+    display: inline-block;
+    color: black;
+}
+.kaa #more a{
+    text-decoration: none;
+    color: green;
+    margin-left: 60px;
+}
+.long #bottom{
+    line-height: 20px;
+    color: black;
+    padding-top: 600px;
+    margin-left: 10px;
+    text-align: left;
+}
+.star{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.with{
+    height: 400px;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    background-color: dimgray;
+}
+.took{
+    height: 400px;
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+.video{
+    height: 400px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.video video{
+   height: 240px;
+   width: 70%;
+   margin: auto;
+    margin: 80px 15% 80px 15%;
+    
+}
+.took{
+   padding: 0 5% 0 5%;
+}
+.took strong{
+    margin-top: 100px;
+    text-align: left;
+    color: white;
+}
+.took i{
+    font-size: 18px;
+    color: darkgray;
+    font-family:  Calibri;
+}
+.took img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.took p{
+    font-size: 18px;
+    color: darkgray;
+    font-family:  Calibri;
+    display: inline-block;
+    float: left;
+}
+.took p b{
+    padding: 0px;
+}
+.Top{
+    height: 370px;
+    width: 90%;
+    padding: 0 5% 0 5%;
+}
+.go{
+    height: 260px;
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+.Top b{
+    padding: 30px 0 30px  0;
+}
+.go p{
+    font-size: 17px;
+    font-family: calibri;
+    line-height: 30px;
+    letter-spacing: .3px;
+}
+.go p a{
+    text-decoration: none;
+    color: black;
+}
+.go p a:hover{
+    text-decoration: underline;
+}
+.vv{
+    height: 450px;
+}
+.bu{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+#oo{
+    height: 50px;
+    width: 220px;
+    color: green;
+    background-color: white;
+    box-shadow: 2px 2px 10px gray;
+    line-height: 0px;
+    margin-top: 20px;
+    border-color: transparent;
+    border-radius: 2px;
+}
+.bu #oo b{
+    padding: 0px;
+}
+.five-1{
+    height: 260px;
+}
+.tx{
+    height: 160px;
+}
+.re{
+    height: 200px;
+    width: 90%;
+    padding: 0 5% 0 5%;
+}
+.demo{
+    height: 150px;
+    width: 100%;
+    box-shadow: 2px 2px 10px;
+    margin: 50px 0 50px 0;
+    border-radius: 3px;
+}
+.left{
+    height: 100px;
+    padding: 25px 0 25px 10%;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.right{
+    height: 100px;
+    width: 40%;
+    display: inline-block;
+    float: left;
+    padding: 25px 0 25px 0;
+}
+.left p{
+    font-size: 24px;
+    color: green;
+}
+.left strong{
+    font-family: Cambria;
+    text-align: left;
+}
+.right #oo{
+    background-color: green;
+    color: white;
+}
+.bottom{
+    height: 650px;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    background-color: rgb(0, 51, 80);
+}
+.bottom p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.bottom a{
+    color: white;
+}
+.bo{
+    width: 33%;
+    height: 380px;
+}
+.go #hre{
+    padding: 0px;
+    border: none;
+    text-align: left;
+}
+.go #hre a{
+    color: white;
+}
+.bo b{
+    color: white;
+    padding:20px 0 20px 0;
+}
+.font{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    margin-top: 381px;
+}
+.font b{
+    display: inline-block;
+    float: left;
+    padding-right: 30px;
+    color: white;
+}
+.font i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 77, 92);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.font #rr{
+    float: right;
+    margin-left: 10px;
+}
+.bottom #tt{
+    border: none;
+}
